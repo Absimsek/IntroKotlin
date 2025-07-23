@@ -13,8 +13,10 @@ fun main() {
     car4.getInfo()
 
     var x=null// no error due to not specified data type
-    println(x)
+    // but also cannot be changeable to any other value than null
+    var d: String?=null // needed ? due to data type specified
+    lateinit var car5: Car // does the same with var car5: Car? = null
+    //lateinit only usable with objects.
 
-    var d: String?=null // needed ? due to primitives needs to specified
-    var car5: Car=null
+
 }
