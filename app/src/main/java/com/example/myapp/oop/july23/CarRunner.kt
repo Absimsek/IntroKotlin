@@ -1,11 +1,11 @@
-package com.example.myapp.oop
+package com.example.myapp.oop.july23
 
 fun main() {
 
-    var car1=Car("blue","opel",3)
-    var car2=Car("white", capacity = 5)
-    var car3=Car("red","honda",7)
-    var car4=Car("black")
+    var car1= Car("blue","opel",3)
+    var car2= Car("white", capacity = 5)
+    var car3= Car("red","honda",7)
+    var car4= Car("black")
 
     car1.getInfo()
     car2.getInfo()
