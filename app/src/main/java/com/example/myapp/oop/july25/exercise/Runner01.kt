@@ -1,4 +1,4 @@
-package com.example.myapp.oop.july24.exercises
+package com.example.myapp.oop.july25.exercise
 
 import java.util.Scanner
 
